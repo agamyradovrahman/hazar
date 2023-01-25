@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Services from "./components/Services/Services";
 import About from './components/Header/About';
+import Nav from "./components/Fixedbutton/Fixedbutton";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="sst">
         <Navbar />
       </div>
+      <Nav />
       <div className="sss">
         <Header />
         <Services />
