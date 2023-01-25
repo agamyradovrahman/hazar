@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div style={{ position: "fixed", bottom: "60px", right: "20px" }}>
       <div style={{ border: "none"  }}>
-        <a href="#home">
+        <a href="#navbar">
         <FaChevronUp fontSize={20} color="#4e7eb1" />
         </a>
       </div>

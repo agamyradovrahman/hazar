@@ -15,7 +15,7 @@ const Services = () => {
           <div className='contain grid topMarign'>
             {ServicesData.map((val) => {
               return (
-                <div className='box'>
+                <div className='box' key={val.id}>
                   <div className='img'>
                     <img src={val.cover} alt='' />
                   </div>
